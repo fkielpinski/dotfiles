@@ -13,5 +13,6 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
+export GOPATH=$HOME/go
 
 unset rc
